@@ -23,7 +23,7 @@ function ip_range($start,$end)
 	    		$b1 = 1;
 	    		$a1 ++;
 	    	}
-	    	$array[] = array('ip'=>$a1.$b1.$c1.$d1);
+	    	$array[] = array('ip'=>$a1.'.'.$b1.'.'.$c1.'.'.$d1);
 	    	$d1++;
 	    }
 	    return $array;
